@@ -1,14 +1,8 @@
-<p align="center">
-    <br>
-    <img src="./pics/apart_banner_reward.png" width="900"/>
-    <br>
-<p>
-
 ## Official Repository for Probing Learned Feedback Patterns in Large Language Models
 #### By Luke Marks, Amir Abdullah, Clement Neo, Rauno Arike, Philip Torr, Fazl Barez 
 1. This repository provides scripts to train several LLM and task combinations under RLHF using PPO.
 2. The repository also supports training sparse autoencoders for feature extraction on the MLP layers of LLMs.
-3. As well as the classification of those features, and the training of a linear approximation of a fine-tuned LLMs implicit reward model.
+3. As well as training linear approximations of a fine-tuned LLMs learned feedback patterns.
 
 ## Installation
 From source
